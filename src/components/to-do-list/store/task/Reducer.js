@@ -1,4 +1,4 @@
-import { ADD_TASK, DEL_TASK, MOVE_UP_TASK, MOVE_DOWN_TASK } from "./actionType";
+import { ADD_TASK, DEL_TASK, MOVE_UP_TASK, MOVE_DOWN_TASK } from "./ActionType";
 
 const taskReducer = (state = [], action) => {
   switch (action.type) {

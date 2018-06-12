@@ -8,7 +8,7 @@ import {
   delTaskAction,
   moveUpTaskAction,
   moveDownTaskAction
-} from "./store/task/Action";
+} from "./store/task/Actions";
 
 import withRed from "./withRed";
 

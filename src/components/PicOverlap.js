@@ -1,10 +1,10 @@
 import React from "react";
 import AvatarList from "ant-design-pro/lib/AvatarList";
 import "antd/dist/antd.css";
-import "./styles.css";
+import "../styles.css";
 import "ant-design-pro/dist/ant-design-pro.css";
 
-const PicOverlap = () =>  {
+const PicOverlap = () => {
   return (
     <div className="App">
       <AvatarList size="mini">
@@ -23,6 +23,6 @@ const PicOverlap = () =>  {
       </AvatarList>
     </div>
   );
-}
+};
 
-export default PicOverlap
+export default PicOverlap;

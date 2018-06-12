@@ -1,4 +1,4 @@
-import { ADD_TASK, DEL_TASK, MOVE_UP_TASK, MOVE_DOWN_TASK } from "./actionType";
+import { ADD_TASK, DEL_TASK, MOVE_UP_TASK, MOVE_DOWN_TASK } from "./ActionType";
 
 export const addTaskAction = name => ({
   type: ADD_TASK,
